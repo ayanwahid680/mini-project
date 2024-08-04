@@ -1,0 +1,256 @@
+ 
+ *body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.text-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.text-container h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* User Rating Styles */
+.top-rated-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-rating {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.user-time {
+    font-size: 12px;
+    color: #888;
+    margin: 5px 0;
+}
+
+.user-comment {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.like-heart {
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+    transition: color 0.3s;
+}
+
+.like-heart.liked {
+    color: red;
+}
+
+/* Exclusive Products Styles */
+.container {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.product-tagline {
+    font-size: 0.9em;
+    color: #777;
+    margin: 5px 0;
+}
+/* Reviews Section Styles */
+.reviews {
+    margin: 20px 0;
+}
+
+.review-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.review-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.review-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #0056b3;
+}
+
+.reviews-list {
+    list-style: none;
+    padding: 0;
+}
+
+.review {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review .rating {
+    font-weight: bold;
+    color: #ffcc00; /* Gold color for stars */
+}
+
+.review .comment {
+    margin-top: 5px;
+}
+  /* Product Comparison Styles */
+  .comparison {
+    margin: 20px 0;
+}
+
+.comparison p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.compare-checkbox {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.comparison-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.comparison-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.comparison-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.comparison-table img {
+    max-width: 100px;
+    height: auto;
+}
+ 
